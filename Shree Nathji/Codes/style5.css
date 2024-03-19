@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@700&family=Poppins&family=Questrial&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playpen Sans',
+        cursive;
+    font-family: 'Poppins',
+        sans-serif;
+    font-family: 'Questrial',
+        sans-serif;
+        font-weight: 600;
+}
+
+/* ----------------------------------------------------------------navbar------------------------------------------------------------------ */
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c9595;
+    height: 70px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+nav .small_screen_nav {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    font-size: 800;
+    justify-content: space-between;
+}
+
+nav ul li {
+    font-size: 17px;
+    color: white;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.whatsapp {
+    border-radius: 10px;
+    width: max-content;
+    padding: 10px;
+}
+
+nav img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+nav .logo img {
+    width: 180px;
+}
+
+nav .whatsapp p {
+    margin-left: 50px;
+}
+
+
+/* ------------------------------------------------------------first-section--------------------------------------------------------- */
+.first-main {
+    padding: 50px;
+}
+.first-para{
+    font-size: 45px;
+    color:blue;
+    font-weight: 600;
+}
+.box-2 {
+    padding: 30px;
+    margin-top: 35px;
+}
+.first-main p{
+    font-size: 25px;
+}
+
+/* ------------------------------------------------------------ contact-from----------------------------------------------------------- */
+
+.section-third {
+    height: max-content;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.overlay {
+    /* background-image: linear-gradient(to right, rgba(90, 100, 232, 0.6), rgba(84, 96, 234, 0.6)); */
+    background: rgb(2, 113, 113);
+    width: 100%;
+    height: max-content;
+    z-index: 1;
+    position: relative;
+    padding: 110px 0;
+}
+
+.section-bg {
+    background-size: cover;
+    position: relative;
+    background-position: left;
+    z-index: 0;
+    padding: 0;
+    min-height: auto;
+    overflow: hidden;
+}
+
+.contact-form {
+    position: relative;
+    padding: 45px 0 45px 60px;
+}
+
+.contact-form:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 6px;
+    background: #ffffff;
+    /* box-shadow: 10px 40px 40px rgba(0, 0, 0, .2); */
+    pointer-events: none;
+    right: auto;
+    width: 100vw;
+}
+
+.particles-js-canvas-el {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.contact-form input {
+    border: 0;
+    background: transparent;
+
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    padding: 11px 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+
+    background-color: transparent;
+    background-image: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    transition: .3s ease-in-out;
+    border: 2px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, .1);
+}
+
+.contact-form textarea {
+    border: 0;
+    background: transparent;
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    padding: 11px 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+
+    background-color: transparent;
+    background-image: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    transition: .3s ease-in-out;
+    border: 2px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, .1);
+}
+
+.contact-form input::placeholder {
+    color: #222;
+}
+
+.contact-form textarea::placeholder {
+    color: #222;
+
+}
+
+.contact-form input {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 55px;
+}
+
+.contact-form input:hover,
+.contact-form input:focus {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    border: 2px solid transparent;
+    border-bottom-color: rgb(254, 132, 111);
+
+}
+
+.contact-form textarea:hover,
+.contact-form textarea:focus {
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid transparent;
+    border-bottom-color: rgb(254, 132, 111);
+
+}
+
+.taso-btn {
+    background-color: #fff;
+    margin: 25px 0;
+    color: #214dcb;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.32);
+    box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.17);
+}
+
+.contact-info {
+    padding: 0 30px 0px 0;
+}
+
+h2.contact-title {
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    color: #ececec;
+}
+
+ul.contact-info {
+    margin-top: 30px;
+}
+
+ul.contact-info li {
+    margin-bottom: 22px;
+}
+
+
+ul.contact-info span {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+ul.contact-info li {
+    display: flex;
+    width: 100%;
+}
+
+.info-left {
+    width: 10%;
+}
+
+.info-left i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.info-right h4 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.contact-page .info-left i {
+    color: #FE846F;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.btn-big {
+    color: #ffffff;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(45, 45, 45, 0.47843137254901963);
+    box-shadow: 2px 5px 10px 0px rgba(45, 45, 45, 0.19);
+    color: #fff !important;
+    margin-right: 20px;
+    background: #FE846F;
+    transition: .2s;
+    border: 2px solid #FE846F;
+    margin-top: 50px;
+}
+
+/* --------------------------------------------- footer ------------------------------------------------ */
+footer {
+    height: 30vh;
+    width: 100%;
+    background-color:#0c9595;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer .lower-footer{
+    bottom: 0   ;
+    color: white;
+    text-align: center;
+}
+
+
+/* ---------------------------------------- css for small screen ---------------------------------------------------  */
+
+@media only screen and (max-width: 767px) {
+    .contact-form {
+        padding: 30px;
+    }
+
+    .contact-form:before {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:1100px) {
+    nav {
+        width: 100%;
+    }
+}
+
+@media(max-width:900px) {
+
+    /* --------------------------------------------------------for navbar------------------------------------------------ */
+    nav {
+        width: 100%;
+    }
+
+    nav .small_screen_nav {
+        display: block;
+    }
+
+    .whatsapp {
+        display: none;
+    }
+
+    nav .small_screen_nav.menu.img {
+        width: 25px;
+        cursor: pointer;
+    }
+
+    nav .small_screen_nav.img {
+        width: 35px;
+        cursor: pointer;
+    }
+
+    nav ul {
+        margin-top: 10;
+        position: fixed;
+        background-color: #1eecffeb;
+        top: 0;
+        right: 0;
+        width: 0;
+        height: 100vh;
+        padding-top: 50px;
+        font-weight: 800;
+        z-index: 2;
+        transition: width .4s;
+        /* display: none; */
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul .small_screen_nav.img {
+        position: absolute;
+        top: 20px;
+        left: 15px;
+    }
+
+    /* ----------------------------------------------- mini-section ------------------------------------------ */
+
+    .box-2{
+        margin-bottom: 30px;
+    }
+}

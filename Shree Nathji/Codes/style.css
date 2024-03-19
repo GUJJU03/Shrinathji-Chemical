@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height:100vh;
+    width:100%;
+}
+
+/* --------------------------------------------   Navbar --------------------------------------------------- */
+nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 70px;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  font-size: 800;
+  justify-content: space-between;
+}
+
+nav ul li {
+  font-size: 17px;
+  color: white;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .logo {
+  margin-left: 20px;
+}
+
+.navbar .logo img {
+  width: 10vw;
+}
+
+.whatsapp {
+  border: 1px solid #46da7d;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+}
+
+nav img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+nav .whatsapp p {
+  margin-left: 50px;
+}
+
+  
+.whatsapp{
+    border:1px solid #46da7d;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+}
+
+
+/* ---------------------------  main css --------------------------------- */
+
+/* ----------------------------- Section-one --------------------------------- */
+
+main .Section_One{
+    background:url(https://img.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg?size=626&ext=jpg&ga=GA1.1.578332653.1698603708&semt=sph);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 90px;
+    
+
+}
+.container-one{
+    border:1px solid black;
+    height:70vh;
+    width: 50%;
+    /* display: flex;    */
+    /* justify-content: center; */
+    align-items: center;
+    margin:50px 0px 0 0;
+}
+.container-one h1{
+    width: 100%;
+    margin:120px 0 0 0;
+}
+.container-two{
+    margin:50px 0 0 50px;
+    border:1px solid black;
+    width: 49%;
+}
+.container-two img{
+    height: 80vh;
+    width: 100%;
+    
+}
+
+/* ----------------------------- Section-two --------------------------------- */
+
+.Section_two{
+    border:1px solid black;
+    /* display: flex; */
+    padding: 20px;
+    justify-content: space-between;
+}
+.box-one{
+    width: 50%;
+    margin:auto 25px;
+    border:1px solid black;
+    height: max-content;
+}
+.button-29 {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+  }
+  
+  .button-29:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+  .button-29:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-8px);
+  }
+  
+  .button-29:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+.box-main-one{
+    display: flex;
+}
+.box-one-second{
+    border:1px solid black;
+}
+.box-two{
+    width: 100%;
+    border:1px solid black;
+}
+.box-two .first-part p{
+    border:1px solid black;
+    margin: 50px;
+    font-size: 25px;
+    width:fit-content;
+}
+.box-two .first-part p img{
+    width:35px;
+}
+.buttons-two{
+    margin: 40px;
+}
+.first-part{
+    display: flex;
+}
+.first-part-one{
+    border:1px solid black;
+}
+.first-part-two{
+    border:1px solid black;
+}
+
+/* ----------------------------- section-three --------------------------------- */
+
+.section-three{
+    border:1px solid black;
+    padding: 50px;
+}
+.section-three p{
+    text-align: center;
+}
+.section-three .first-p{
+    font-weight: 800;
+    font-size: 33px;    
+}
+.section-three .second-p{
+    font-weight: 800;
+    font-size: 33px;
+    color: #5469ff;
+}
+.section-three .third-p{
+    padding: 20px;
+    font-size: 17px;
+}
+
+.section-three .lower-part{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text-button-three{
+    border:1px solid black;
+    width: 45%;
+    font-size: 17px;
+}
+.section-three .lower-part .image{
+    border:1px solid black;
+    text-align: left;
+}
+.lower-part .buttons-three{
+    margin: 25px;
+    justify-content: center;
+    
+}
+
+/* ----------------------------- section-four --------------------------------- */
+
+.section-four{
+    padding: 50px;
+}
+.services {
+    padding: 90px 90px;
+    height: 100%;
+    width: 100%;
+}
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+.service-list img {
+    height: 80px;
+    widows: 100%;
+    margin-bottom: 10px;
+}
+.service-list div {
+    background: #ffffff;
+    padding: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 20px;
+    transition: .8s;
+}
+.service-list h2 {
+    font-size: 30px;
+}
+.service-list a {
+    border:2px solid #002fff;
+    padding: 5px;
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none;
+    background:#002fff ;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 15px;
+    display: inline-block;
+}
+.service-list div:hover {
+    color: white;
+    background-color: #1eecff;
+    transform: translateY(-10px);
+}
+.cards-any img{
+    border:1px solid black;
+    height: 420px;
+    width: 320px;
+    border-radius:20px ;
+}
+
+
+/* ----------------------------------------section-five photo gallery-------------------------------------------  */
+
+.section-six{
+    /* padding: 50px; */
+    width: 100%;
+    height: 120vh;
+}
+.section-six h1{
+    text-align: center;
+    line-height: normal;
+    margin:50px 0;
+    background-color: #1eecff;
+}
+.photos-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-six img {
+	width: 100%;
+	display: block;
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+	transition: transform 1000ms;
+}
+
+.section-six ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 0.5rem;
+	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+	max-width: 100%;
+	width: 70rem;
+}
+
+.section-six figure {
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.section-six figure::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 200%;
+	height: 200%;
+	background: rgba(0, 0, 0, 0.5);
+	transform-origin: center;
+	opacity: 0;
+	transform: scale(2);
+	transition: opacity 300ms;
+}
+
+.section-six figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	place-items: center;
+	text-align: center;
+	padding: 1rem;
+	color: white;
+	font-size: 1.2rem;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 600ms, transform 600ms;
+}
+
+.section-six a:is(:hover, :focus) figure::after {
+	opacity: 1;
+}
+
+.section-six a:is(:hover, :focus) figcaption {
+	opacity: 1;
+	transition: opacity 600ms;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	figcaption {
+		transform: translate3d(0, 2rem, 0);
+	}
+	
+	figure::after {
+		border-radius: 50%;
+		opacity: 1;
+		transform: scale(0);
+		transition: transform 900ms;
+	}
+	
+	a:is(:hover, :focus) figure::after {
+		transform: scale(2.5);
+	}
+
+	a:is(:hover, :focus) figcaption {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+		transition: opacity 600ms 400ms, transform 600ms 400ms;
+	}
+
+	a:is(:hover, :focus) img {
+		transform: scale(1.2);
+	}
+}
+
+
+/* ----------------------------------------section-six who we are------------------------------------------- */
+
+.section-six{
+    border:1px solid black;
+    height: 100vh;
+    width: 80%;
+    /* padding: 50px 50px; */
+}
+.section-six h1{
+    text-align: center;
+    background-color: #1eecff;
+    width: 100%;
+    position: relative;
+    margin:25px 0;
+}
+.upper-part-six-first{
+    display: flex;
+    border:1px solid black;
+}
+.upper-part-six-first p{
+    border:1px solid black;
+    width: 55%;
+    font-size: 30px;
+    text-align: center;
+    align-self: center;
+    margin-right: 15px  ;
+}
+
+
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}

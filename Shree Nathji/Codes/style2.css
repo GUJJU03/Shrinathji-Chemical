@@ -1,0 +1,899 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@700&family=Poppins&family=Questrial&display=swap');
+
+
+* {
+  font-family: 'Playpen Sans',
+  cursive;
+  font-family: 'Poppins',
+  sans-serif;
+  font-family: 'Questrial',
+  sans-serif;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+
+
+
+}
+/* ----------------------------------------------------- navbar --------------------------------------------------------  */
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0c9595;
+  height: 70px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+nav .small_screen_nav {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  font-size: 800;
+  justify-content: space-between;
+}
+
+nav ul li {
+  font-size: 17px;
+  color: white;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.whatsapp {
+  border-radius: 10px;
+  width: max-content;
+  padding: 10px;
+}
+
+nav .whatsapp img {
+  width: 30px;
+  margin-right: 10px;
+}
+nav .whatsapp img:hover{
+  width: 35px;
+  
+}
+
+nav .logo img {
+  width: 180px;
+}
+
+nav .whatsapp p {
+  margin-left: 50px;
+}
+
+
+
+/* ------------------------------- section-one-------------------------------- */
+.section-one {
+  /* background:url(https://c4.wallpaperflare.com/wallpaper/922/313/191/abstract-abstraction-biology-chemistry-wallpaper-preview.jpg); */
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-section-one {
+  height: 50vh;
+  width: 100%;
+  border: 1px solid black;
+}
+.blue{
+  color: blue;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.main-section-one h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 55px;
+  text-align: center;
+  width: 100%;
+  margin: 10% 0;
+}
+
+.about-us-one {
+  padding: 90px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.about-us-one-text h2{
+ 
+}
+.about-us-one-image {
+  width: 45%;
+  height: 200px;
+  width: 800px;
+  /* border:1px solid black; */
+  margin: 0 20px;
+}
+.about-us-one dotlottie-player{
+  height: 400px;
+  width: 500px;
+}
+.parent-part{
+  width: 100%;
+}
+
+
+/* -----------------------------------------section-two---------------------------------------- */
+
+.section-two {
+  background-color: whitesmoke;
+}
+
+.second-main-one.container {
+  padding: 50px 50px;
+}
+
+.second-main-one.FAQs-container p {
+  width: 100%;
+  margin: 15px 1px 10px;
+}
+
+.second-main-text-second {
+  display: flex;
+  justify-content: space-around;
+  /* Adjust this property to your preference */
+  align-items: center;
+  /* border: 1px solid black; */
+  margin-top: 20px;
+  padding: 50px;
+}
+
+.boxes {
+  /* border: 1px solid black; */
+  text-align: center;
+  /* Center the content inside each box */
+  max-width: 300px;
+  /* Adjust the maximum width of each box */
+}
+
+.boxes img {
+  width: 80px;
+  /* Make sure the image doesn't exceed the width of its container */
+  height: auto;
+  /* Maintain the aspect ratio of the image */
+}
+
+.boxes h2 {
+  margin-top: 20px;
+}
+
+/* ------------------------------- section-three--------------------------------- */
+.texts-three {
+  padding: 20px;
+
+}
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.video video{
+  height: 500px;
+  width: max-content;
+}
+.texts-three h1 {
+  text-align: center;
+}
+
+.section-three {
+  min-height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+.album .responsive-container-block {
+  min-height: 75px;
+  height: fit-content;
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  justify-content: flex-start;
+}
+
+.album .responsive-container-block.bg {
+  max-width: 1320px;
+  margin: 0 0 0 0;
+  justify-content: space-between;
+}
+
+.album .img {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+.album #i9rb {
+  color: black;
+}
+
+.album #ir6i {
+  color: black;
+}
+
+.album #ikz3b {
+  color: black;
+}
+
+.album .responsive-container-block.img-cont {
+  flex-direction: column;
+  max-width: 33.3%;
+  min-height: auto;
+  margin: 0 0 0 0;
+  height: 100%;
+}
+
+.album #ipix {
+  color: black;
+}
+
+.album #ipzoh {
+  color: black;
+}
+
+.album #ig5q8 {
+  color: black;
+}
+
+.album #imtzl {
+  color: black;
+}
+
+.album #i53es {
+  color: black;
+}
+
+.album .img.img-big {
+  height: 50%;
+  margin: 0 0 16px 0;
+}
+
+@media (max-width: 1024px) {
+  .album .img {
+    margin: 0 0 18px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .album .img {
+    max-width: 32.5%;
+    margin: 0 0 0 0;
+  }
+
+  .album .responsive-container-block.bg {
+    flex-direction: column;
+  }
+
+  .album .responsive-container-block.img-cont {
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .album .img.img-big {
+    max-width: 49%;
+    margin: 0 0 0 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .album .img {
+    max-width: 94%;
+    margin: 0 0 25px 0;
+  }
+
+  .album .responsive-container-block.img-cont {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .album .img.img-big {
+    max-width: 94%;
+    margin: 0 0 25px 0;
+  }
+
+  .album .img.img-last {
+    margin: 0 0 5px 0;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.wk-desk-1 {
+  width: 8.333333%;
+}
+
+.wk-desk-2 {
+  width: 16.666667%;
+}
+
+.wk-desk-3 {
+  width: 25%;
+}
+
+.wk-desk-4 {
+  width: 33.333333%;
+}
+
+.wk-desk-5 {
+  width: 41.666667%;
+}
+
+.wk-desk-6 {
+  width: 50%;
+}
+
+.wk-desk-7 {
+  width: 58.333333%;
+}
+
+.wk-desk-8 {
+  width: 66.666667%;
+}
+
+.wk-desk-9 {
+  width: 75%;
+}
+
+.wk-desk-10 {
+  width: 83.333333%;
+}
+
+.wk-desk-11 {
+  width: 91.666667%;
+}
+
+.wk-desk-12 {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .wk-ipadp-1 {
+    width: 8.333333%;
+  }
+
+  .wk-ipadp-2 {
+    width: 16.666667%;
+  }
+
+  .wk-ipadp-3 {
+    width: 25%;
+  }
+
+  .wk-ipadp-4 {
+    width: 33.333333%;
+  }
+
+  .wk-ipadp-5 {
+    width: 41.666667%;
+  }
+
+  .wk-ipadp-6 {
+    width: 50%;
+  }
+
+  .wk-ipadp-7 {
+    width: 58.333333%;
+  }
+
+  .wk-ipadp-8 {
+    width: 66.666667%;
+  }
+
+  .wk-ipadp-9 {
+    width: 75%;
+  }
+
+  .wk-ipadp-10 {
+    width: 83.333333%;
+  }
+
+  .wk-ipadp-11 {
+    width: 91.666667%;
+  }
+
+  .wk-ipadp-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wk-tab-1 {
+    width: 8.333333%;
+  }
+
+  .wk-tab-2 {
+    width: 16.666667%;
+  }
+
+  .wk-tab-3 {
+    width: 25%;
+  }
+
+  .wk-tab-4 {
+    width: 33.333333%;
+  }
+
+  .wk-tab-5 {
+    width: 41.666667%;
+  }
+
+  .wk-tab-6 {
+    width: 50%;
+  }
+
+  .wk-tab-7 {
+    width: 58.333333%;
+  }
+
+  .wk-tab-8 {
+    width: 66.666667%;
+  }
+
+  .wk-tab-9 {
+    width: 75%;
+  }
+
+  .wk-tab-10 {
+    width: 83.333333%;
+  }
+
+  .wk-tab-11 {
+    width: 91.666667%;
+  }
+
+  .wk-tab-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .wk-mobile-1 {
+    width: 8.333333%;
+  }
+
+  .wk-mobile-2 {
+    width: 16.666667%;
+  }
+
+  .wk-mobile-3 {
+    width: 25%;
+  }
+
+  .wk-mobile-4 {
+    width: 33.333333%;
+  }
+
+  .wk-mobile-5 {
+    width: 41.666667%;
+  }
+
+  .wk-mobile-6 {
+    width: 50%;
+  }
+
+  .wk-mobile-7 {
+    width: 58.333333%;
+  }
+
+  .wk-mobile-8 {
+    width: 66.666667%;
+  }
+
+  .wk-mobile-9 {
+    width: 75%;
+  }
+
+  .wk-mobile-10 {
+    width: 83.333333%;
+  }
+
+  .wk-mobile-11 {
+    width: 91.666667%;
+  }
+
+  .wk-mobile-12 {
+    width: 100%;
+  }
+}
+
+
+/* -------------------------------- section-five  our products -----------------------------  */
+
+.section-five  {
+  height: 100vh;
+  width: 100%;
+  background-color: whitesmoke;
+  /* padding: 30px; */
+  margin-bottom: 50px;
+}
+
+.products {
+  display: flex;
+}
+
+.texts-four {
+  padding: 30px;
+  text-align: center;
+}
+
+.product-img {
+  float: left;
+  height: max-content;
+  width: 327px;
+}
+
+.product-img img {
+  border-radius: 7px 0 0 7px;
+}
+
+.product-info {
+  float: left;
+  height: max-content;
+  width: 327px;
+  border-radius: 0 7px 10px 7px;
+  background-color: #ffffff;
+}
+
+.product-text {
+  height: max-content;
+  width: 327px;
+}
+
+.product-text h1 {
+  margin: 0 0 0 38px;
+  padding-top: 52px;
+  font-size: 34px;
+  color: #474747;
+}
+
+.product-text h1,
+.product-price-btn p {
+  font-family: 'Bentham', serif;
+}
+
+.product-text h2 {
+  margin: 0 0 47px 38px;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #d2d2d2;
+  letter-spacing: 0.2em;
+}
+
+.product-text p {
+  height: 125px;
+  margin: 0 0 0 38px;
+  font-family: 'Playfair Display', serif;
+  color: #8d8d8d;
+  line-height: 1.7em;
+  font-size: 15px;
+  font-weight: lighter;
+  overflow: hidden;
+}
+
+.product-price-btn {
+  height: 103px;
+  width: 327px;
+  margin-top: 17px;
+  position: relative;
+}
+
+.product-price-btn p {
+  display: inline-block;
+  position: absolute;
+  top: -13px;
+  height: 50px;
+  font-family: 'Trocchi', serif;
+  margin: 0 0 0 38px;
+  font-size: 28px;
+  font-weight: lighter;
+  color: #474747;
+}
+
+.FAQs-container span {
+  display: inline-block;
+  height: 50px;
+  font-family: 'Suranna', serif;
+  font-size: 19px;
+}
+
+.product-price-btn button {
+  display: inline-block;
+  height: 50px;
+  width: 176px;
+  margin: 0 40px 0 16px;
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #9cebd5;
+  cursor: pointer;
+  outline: none;
+}
+
+.product-price-btn button:hover {
+  background-color: #79b0a1;
+}
+
+/* <!-- ------------------------------ section-five FAQs----------------------- --> */
+
+.FAQs-container {
+  margin: 0 auto;
+  padding: 4rem;
+  width: 48rem;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion button[aria-expanded='true'] {
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+
+.accordion .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: #03b5d2;
+}
+
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+
+.accordion button[aria-expanded='true']+.accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p {
+  font-size: 0.9 rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+/* ------------------------------------ Last-section------------------------------------- */
+
+.last-section {
+  height: max-content;
+  width: 100%;
+  background-color: wheat;
+  text-align: center;
+}
+
+.texts-last {
+  padding: 30px;
+}
+
+
+footer {
+  height: 30vh;
+  width: 100%;
+  background-color:#0c9595;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer .lower-footer{
+  bottom: 0   ;
+  color: white;
+  text-align: center;
+}
+
+
+/* --------------------------------------------------------------------- small screen css ----------------------------------------  */
+
+@media only screen and (max-width:1100px) {
+  nav {
+      width: 100%;
+  }
+}
+
+@media(max-width:900px) {
+
+  /* --------------------------------------------------------for navbar------------------------------------------------ */
+  nav {
+      width: 100%;
+  }
+
+  nav .small_screen_nav {
+      display: block;
+      
+  }
+  
+  .whatsapp {
+      display: none;
+  }
+
+  nav .small_screen_nav.menu.img {
+      width: 25px;
+      cursor: pointer;
+  }
+
+  nav .small_screen_nav.img {
+      width: 35px;
+      cursor: pointer;
+  }
+
+  nav ul {    
+      margin-top: 10;
+      position: fixed;
+      background-color: #1eecffeb;
+      top: 0;
+      right: 0;
+      width: 0;
+      height: 100vh;
+      padding-top: 50px;
+      font-weight: 800;
+      z-index: 2;
+      transition: width .4s;
+      /* display: none; */
+  }
+
+  nav ul li {
+      display: block;
+      margin: 25px;
+  }
+
+  nav ul .small_screen_nav.img {
+      position: absolute;
+      top: 20px;
+      left: 15px;
+  }
+  .about-us-one{
+    padding: 90px;
+    width: auto;
+  }
+  .about-us-one-text{
+    margin-left: 250px;
+    width: 40%;
+    font-size: 22px;
+    text-align: center;
+  }
+  .parent-part{
+    width: min-content;
+  }
+
+  .about-us-one dotlottie-player{
+    margin:0 0 0 200px;
+    height: 300px;
+    width: 400px;
+   
+  }
+
+  .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .video video{
+    height: 250px;
+    width: 320px;
+  }
+
+  .section-five{
+    height: max-content;
+  }
+  
+
+}
